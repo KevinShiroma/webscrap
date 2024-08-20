@@ -1,0 +1,80 @@
+---------------------------------------------------------------------------------------------------------------
+Implantação em produção – Data Lake Ultragaz
+---------------------------------------------------------------------------------------------------------------
+Número da Mudança: CHG0067388
+Janela de aplicação: 2024-08-20 à 2024-08-23
+Projeto:  Sustentação Datalake
+Entrega: ETG0003506
+Engenheiro de dados responsável pelo desenvolvimento: Kevin Shiroma
+Descrição da mudança: Ingestão do azure maps para o data lake.
+ 
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+ 
+(x) Databricks
+(x) Data Factory
+( ) Logic Apps
+( ) Outros. Qual?
+ 
+ 
+Databricks
+---------------------------------------------------------------------------------------------------------------
+Branch: inmet_clima
+Path: /Workspace/Repos/kevin.shiroma@ultragaz.com.br/eng-dados-dbw-ug-dl/Ingestoes Raw/inmet clima/nt_py_create_json_inmet_clima
+Nome notebook: nt_py_create_json_inmet_clima
+Descrição: Coleta os dados das tabelas das estações climáticas automáticas e convencionais do Azure Maps.
+ 
+Data Factory
+---------------------------------------------------------------------------------------------------------------
+ 
+Branch: ssa_azure_maps_clima
+ 
+Pipelines Criadas:  pip_ing_azmaps_clima_full,
+                    pip_ing_azmaps_clima_main
+ 
+Pipeline Alteradas:  none
+ 
+Descrição: Criação da ingestão dos dados do AzureMaps baseado nas estações climáticas 
+ 
+Modificou alguma trigger ou criou alguma trigger nova?
+()Não (X)Sim.
+Nome da Trigger: TGR_ING_AZMAPS
+ 
+ 
+---------------------------------------------------------------------------------------------------------------
+ Tem carga histórica para ser realizada?
+(X)Não ()Sim. Quais são os nomes das pipelines e qual é a estratégia da carga?
+ 
+Script de implantação:
+ 
+ 
+Responsável pela implantação em produção: Kevin Shiroma
+ 
+Qualquer dúvida estou à disposição.
+ 
+ 
+Qualquer dúvida estou à disposição.
+
+
+ 
+
+
+
+
+
+Kevin Makoto Shiroma
+
+Estagiário de Inteligência de Negócio - Matriz
+
+www.ultragaz.com.br
+
+
+
+
+
+
+
+
+
+ 
+
